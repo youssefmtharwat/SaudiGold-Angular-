@@ -1,0 +1,123 @@
+<div>
+    <div class="row">
+        <div class="col-3">
+            <app-charts></app-charts>
+        </div>
+        <div class="col-9 px-5">
+            <!-- filter area -->
+            <div class="d-flex justify-content-between">
+                <div class="radiocont">
+                    <div>
+
+                        <input type="radio"  name="current" id="cur1"  >
+                        <label  for="cur1">أنتهى</label>
+                    </div>
+
+                    <div>
+
+                        <input type="radio"  name="current" id="cur2" checked>
+                        <label  for="cur2">الحالي</label>
+                    </div>
+                </div>
+
+                <div class="selectcont">
+                    
+                      
+                    <select >
+                        <option selected>السبائك</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of filter area -->
+
+            <!-- balance card -->
+            <div class="mt-4 balancebg" >
+                <div class="imgcontainer">
+                    <img src="/assets/happyman.png">
+                </div>
+                <div>
+                    <h3 >
+                        رصيد السبائك
+                    </h3>
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <span class="cyellow fs-1">جرام</span>
+                    <h1 class="  fw-bolder cyellow">
+                        20,000
+                    </h1>
+                </div>
+                <div>
+                    <h5 >
+                        رصيد السبائك  يساوي ( <span id="goldbalance">365,000</span> ريال سعودي )
+                    </h5>
+                   
+                </div>
+            </div>
+
+            <!-- end of balance card -->
+            
+            <!-- savings area -->
+            <div>
+                <!-- product card -->
+                <div class="pcard">
+                    <div >
+                        <a routerLink="product" class="fs-5">
+                            <i class="bi bi-arrow-left-circle"></i>
+                            التفاصيل 
+                        </a>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <div>
+
+                            <h5 class=" text-end">سبيكة 1 جرام</h5>
+                            <div class="d-flex gap-1 justify-content-end ">
+                                <span>  ر,س</span>
+                                <h5 class="cyellow">3,430</h5>
+                            </div>
+                            <div class="d-flex justify-content-end gap-2">
+                                <span class=" fw-semibold">13 / 04 / 2024</span>
+                                <small class=" fw-semibold">تاريخ الشراء<i class="bi bi-calendar-event ms-2"></i></small>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="/assets/goldbar.png">
+                        </div>
+                    </div>
+                </div>
+                <!--end of product card -->
+                
+                <!-- product card -->
+                <div class="pcard">
+                    <div >
+                        <a routerLink="product" class="fs-5">
+                            <i class="bi bi-arrow-left-circle"></i>
+                            التفاصيل 
+                        </a>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <div>
+
+                            <h5 class=" text-end">سبيكة 1 جرام</h5>
+                            <div class="d-flex gap-1 justify-content-end ">
+                                <span>  ر,س</span>
+                                <h5 class="cyellow">3,430</h5>
+                            </div>
+                            <div class="d-flex justify-content-end gap-2">
+                                <span class=" fw-semibold">13 / 04 / 2024</span>
+                                <small class=" fw-semibold">تاريخ الشراء<i class="bi bi-calendar-event ms-2"></i></small>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="/assets/goldbar.png">
+                        </div>
+                    </div>
+                </div>
+                <!--end of product card -->
+
+
+            </div>
+            <!-- end of savings area -->
+
+        </div>
+    </div>
+</div>

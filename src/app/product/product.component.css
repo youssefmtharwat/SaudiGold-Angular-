@@ -1,0 +1,92 @@
+.productarea{
+    background-color: white;
+    margin-top: 20px;
+    padding: 0px 20px 60px;
+    border-radius: 30px;
+}
+
+
+  .bigimgcontainer{
+    padding: 50px;
+    border: solid 1px var(--bggrey);
+    border-radius: 10px;
+  }
+  .big-image {
+    width: 300px;
+    height: 470px;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    gap: 10px;
+    border: solid 1px var(--bggrey);
+    border-radius: 10px;
+    padding:0px 30px;
+    margin: 0px 10px 0px 40px;
+  }
+  
+  .thumbnail {
+    width: 57px;
+    height: 91px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+  }
+  .leftcont{
+    text-align: end;
+    padding-left: 50px;
+  }
+  .leftcont a{
+    color: var(--bgdarkgrey);
+    text-decoration: underline;
+  }
+  .leftcont p{
+    color: var(--bgdarkgrey);
+    font-size: 1.2em;
+    text-align: end;
+    text-indent: 20px;
+  }
+  .leftcont label{
+    color: var(--bgcardtext);
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  .btnscont{
+    color: var(--bgdarkgrey);
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .btnscont button{
+background-color: white;
+border: none;
+color: var(--bgcardtext);
+  }
+  .bottomcont{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px var(--bggrey);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .bottomcont button{
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    border: none;
+    outline: none;
+  }
+  .ybtn{
+    background-color: var(--bgyellow);
+    border: none;
+    color: black;
+    width: 100%;
+    border-radius: 100px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.5em;
+  }

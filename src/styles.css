@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'arfont', sans-serif;
+text-decoration: none;
+list-style: none;
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+:root{
+    --bgoffwhite:rgba(245,245,245,1);
+    --bgbellrem:rgba(253, 13, 0, 0.6);
+    --bggrey:rgba(222, 222, 222, 0.5);
+    --bggrey1:rgba(222, 222, 222, 1);
+    --bgdarkblue:rgba(22, 22, 34, 1);
+    --bgdashtext:rgba(208, 208, 211, 1);
+    --bgyellow:rgba(255, 215, 0, 1);
+    --bgcardtext:rgba(161, 162, 175, 1);
+    --bglightgreen:rgba(85, 201, 96, 0.12);
+    --bggreen:rgba(85, 201, 96, 1);
+    --bgcyan:rgba(189, 214, 255, 1);
+    --bgdarkgrey:rgba(102, 102, 102, 1);
+}
+.cyellow{
+    color: var(--bgyellow);
+}
+body{
+    background-color:var(--bgoffwhite);
+    overflow-x: hidden;
+
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: 'arfont';
+    src: url('../public/assets/fonts/arfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

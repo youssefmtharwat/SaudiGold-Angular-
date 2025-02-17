@@ -1,0 +1,65 @@
+.radiocont{
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+}
+.radiocont label{
+    background-color: white;
+    cursor: pointer;
+    color: var(--bgcardtext);
+    padding:7px 40px;
+    border-radius: 30px;
+    transition: all 0.25s ease-in;
+}
+.radiocont input[name="current"]{
+    display: none;
+}
+.radiocont input[name="current"]:checked ~ label{
+    background-color: var(--bgyellow);
+    color: black;
+}
+.selectcont{
+background-color: white;
+border-radius: 30px;
+padding: 0px 20px;
+}
+.selectcont select{
+    border-radius: 30px;
+    direction: rtl !important; /* Move arrow to the left */
+    text-align: right !important;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 1.3em;
+    
+}
+.balancebg{
+    background-color: var(--bgdarkblue);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    border-radius: 30px;
+    color: white;
+}
+.balancebg .imgcontainer{
+    background-color: var(--bgcyan);
+    border-radius: 100px;
+}
+.pcard{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}

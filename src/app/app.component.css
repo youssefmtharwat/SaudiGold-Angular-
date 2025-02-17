@@ -1,0 +1,98 @@
+.rounded-icon{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 11px 15px;
+    border-radius: 100px;
+}
+.rounded-icon img{
+    width: 20px;
+    
+}
+.profilebtn{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.profilebtn img{
+    border-radius: 100px;
+}
+.bellrem{
+    background-color:var(--bgbellrem) ;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    font-size: 0.9em;
+    color: white;
+    font-weight: 500;
+    padding: 1px 8px;
+    border-radius: 40px;
+    z-index: 100;
+}
+.accordionbg{
+    background-color: white !important;
+    border-radius: 30px  !important;
+    padding: 2px 0px !important;
+    box-shadow: none !important;
+    position: absolute !important;
+    z-index: 1001 !important;
+    
+}
+.accordionbg .mat-expansion-panel-header:hover{
+    background-color: white !important;
+}
+
+.profile-menu ul{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    gap: 10px;
+    padding: 0px;
+}
+.profile-menu ul li{
+    border-top: solid 1px var(--bggrey);
+    padding: 5px 0px;
+}
+.profile-menu ul li:last-child a{
+    color: red !important;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    z-index: 1000; /* Ensure it's above other content */
+    display: none;
+  }
+  
+  /* Show overlay when active */
+  .overlay.active {
+    display: block;
+  }
+  .searchbar input{
+    background-color: white;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding: 10px 60px ;
+    color: black;
+    border-radius: 30px;
+  }
+  .searchbar button{
+    font-size: 1.5em;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    background-color: transparent;
+    color: rgba(161, 162, 175, 1);
+    border: none;
+    outline: none;
+  }

@@ -20,6 +20,30 @@ export class ProductComponent {
     
   ];
 
+  closeProductOptions(){
+    const prodoption = document.getElementById("productOptionBG");
+    if(prodoption){
+      prodoption.style.display = "none";
+    }
+  }
+  openProductOptions(){
+    const prodoption = document.getElementById("productOptionBG");
+    if(prodoption){
+      prodoption.style.display = "flex";
+    }
+  }
+  closeSabek(){
+    const sabek = document.getElementById("sabek-cont");
+    if(sabek){
+      sabek.style.display = "none";
+    }
+  }
+  openSabek(){
+    const sabek = document.getElementById("sabek-cont");
+    if(sabek){
+      sabek.style.display = "flex";
+    }
+  }
   selectedImage: string = this.images[0];
 
   selectImage(image: string): void {

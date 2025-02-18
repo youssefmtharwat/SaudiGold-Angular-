@@ -61,7 +61,7 @@
                 </div>
                 <div>
 
-                    <button class="ybtn">
+                    <button class="ybtn" (click)="openProductOptions()">
                         خيارات المنتج
                     </button>
                 </div>
@@ -88,4 +88,59 @@
           </div>
                 </div>
     </div>
+    <!-- product options -->
+    <div id="productOptionBG">
+        <div class="productOptionCard">
+            <div>
+                <h3>خيارات المنتج</h3>
+            </div>
+            <div>
+                <button class="ybtn2 ">
+                    تحويل الي جرامات حرة
+                </button>
+            </div>
+            <div>
+                <button class="ybtn2" (click)="openSabek()">
+                    سبك وإستلام         
+                </button>
+            </div>
+            
+            <div>
+                <button class="ybtn3 ">
+                    بيع السبيكة
+                </button>
+            </div>
+            <div>
+                <button class="ybtn4 " (click)="closeProductOptions()">
+                    الغاء
+                </button>
+            </div>
+            <div>
+                <button class="closebtn" (click)="closeProductOptions()">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div id="sabek-cont">
+            <div>
+                <h3>وزن الجرامات المراد بيعها</h3>
+            </div>
+            <div>
+                <button class="closebtn" (click)="closeSabek()">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <div>
+                <input type="text" placeholder="0.00 جرام" />
+            </div>
+            <div>
+                <input type="submit" value="أرسال الطلب"  class="ybtn2"/>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+   <!--end of product options -->
 </div>

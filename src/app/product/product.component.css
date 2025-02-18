@@ -90,3 +90,93 @@ color: var(--bgcardtext);
     margin-top: 20px;
     font-size: 1.5em;
   }
+  #productOptionBG{
+    background-color: var(--bggrey2);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1005;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+#productOptionBG .productOptionCard{
+width: 25%;
+height: 50%;
+background-color: white;
+border-radius: 30px;
+display: flex;
+flex-flow: column;
+align-items: center;
+padding: 20px;
+
+position: relative;
+}
+.ybtn2{
+  background-color: var(--bgyellow);
+  border: none;
+  color: black;
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px 100px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+.ybtn3{
+  background-color: white;
+  border: none;
+  color: black;
+  width: 100%;
+  border-radius: 15px;
+  padding: 0px 100px 30px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  border-bottom: dashed 1px var(--bggrey);
+}
+.ybtn4{
+  background-color: white;
+  border: none;
+  color: red;
+  width: 100%;
+  border-radius: 15px;
+  padding: 0px 100px ;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+.closebtn{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 2em;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: none;
+}
+#sabek-cont{
+  width: 25%;
+height: 50%;
+background-color: white;
+border-radius: 30px;
+display: none;
+flex-flow: column;
+align-items: center;
+padding: 20px;
+position: absolute;
+}
+#sabek-cont input[type="text"]{
+  width: 400px !important;
+  height: 200px;
+  text-align: center;
+  font-size: 3em;
+  padding: 10px;
+  border-radius: 10px;
+ background-color: var(--bggrey);
+  border: none;
+  margin-top: 20px;
+  outline: none;
+  color: black;
+}
